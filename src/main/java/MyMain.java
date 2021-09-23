@@ -11,7 +11,8 @@ public class MyMain {
     //    int[] arr2 = {2, 4, 6};
     //    int[] arr3 = addArrays3(arr1, arr2); // arr3 = [3, 7, 11]
     public static int[] addArrays3(int[] arr1, int[] arr2) {
-        // REPLACE THIS WITH YOUR CODE
+        for (int i=0; i<arr1.length; i++){
+            System.out.println(arr1[i]+arr2[i]);}
         return null;
     }
 
@@ -23,8 +24,9 @@ public class MyMain {
     // int[] arr1 = {1, 3, 5};
     // double[] arr2 = average3(arr1); // arr2 = [3.0, 3.0, 3.0]
     public static double[] average3(int[] arr) {
-        // REPLACE THIS WITH YOUR CODE
-        return null;
+        double array[]={2,4,6};
+        double x = array[0]=(arr[0]+arr[1]+arr[2])/3.0;
+        return 3*(Arrays.toString(array));
     }
 
     // Iteration Problem 1:
